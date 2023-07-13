@@ -1,0 +1,13 @@
+{
+    "elastic":{
+        "addresses":[
+            "http://elasticsearch:9200"
+        ],
+        "index": "pwned-password"
+    },
+    "service":{
+        "host":"0.0.0.0",
+        "port": 8080,
+        "token": "OPVSVkRgs9UGoKcb5"
+    }
+}
