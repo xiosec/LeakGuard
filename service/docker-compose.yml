@@ -1,5 +1,6 @@
 ---
 version: '3'
+#https://github.com/xiosec/LeakGuard
 
 services:
   elasticsearch:

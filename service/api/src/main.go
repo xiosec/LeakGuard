@@ -18,6 +18,9 @@ func main() {
 	flag.StringVar(&ConfigPath, "config", "config.json", "config file path")
 	flag.Parse()
 
+	fmt.Println("\tLeakGuard")
+	fmt.Println("https://github.com/xiosec/LeakGuard\n")
+
 	err := config.Load(ConfigPath)
 	if err != nil {
 		log.Fatal("Error loading configs!")

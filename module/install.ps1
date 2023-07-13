@@ -6,6 +6,9 @@ function Invoke-LeakGuard {
 		[String]$token
 	)
 	
+	write-host "LeakGuard"
+	write-host "https://github.com/xiosec/LeakGuard"
+
 	write-host "[*] copy $dllpath -> System32"
 	Copy-Item -Path $dllpath -Destination "$env:SystemRoot\System32"
 	
